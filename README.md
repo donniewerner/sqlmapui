@@ -1,5 +1,5 @@
 # sqlmapui
-GUI for SQLmap written in WX python
+GUI for SQLmap written in TKinter python
 
 Full SQLmap functionality
 English UI
