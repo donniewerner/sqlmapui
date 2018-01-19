@@ -1,0 +1,5 @@
+*conf
+/etc/passwd
+/etc/shadow
+/etc/hosts
+/etc/issue
