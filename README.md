@@ -10,28 +10,29 @@ mwood note: this was found from an unknown version in Chinese
 			original authors, and the translated version this
 			is built from.
 
-additions / to do:
-done! --sql-shell
-done! --forms
-done! --no-cast
-done! -g -q GOOGLEDORK
+features:
+--sql-shell
+--forms
+--no-cast
+-g -q GOOGLEDORK
 
+New tab
+--os-cmd=OSCMD      Execute an operating system command
+--os-shell          Prompt for an interactive operating system shell
+--os-pwn            Prompt for an OOB shell, Meterpreter or VNC
+--priv-esc          Database process user privilege escalation
+--msf-path=MSFPATH  Local path where Metasploit Framework is installed
+--tmp-path=TMPPATH  Remote absolute path of temporary files directory
 
-done! New tab
-done! --os-cmd=OSCMD      Execute an operating system command
-done! --os-shell          Prompt for an interactive operating system shell
-done! --os-pwn            Prompt for an OOB shell, Meterpreter or VNC
-done! --priv-esc          Database process user privilege escalation
-done! --msf-path=MSFPATH  Local path where Metasploit Framework is installed
-done! --tmp-path=TMPPATH  Remote absolute path of temporary files directory
-done! append the lasturi log and add new line
-done! fixed -v not working
+fixed append the lasturi log and add new line
+fixed -v not working
 
+todo:
 --update
 --identify-waf
 --mobile
 --skip-urlencode
-how works? -s SESSIONFILE      Load session from a stored (.sqlite) file
+-s SESSIONFILE      Load session from a stored (.sqlite) file
 --file-write=WFILE  Write a local file on the back-end DBMS file system
 --file-dest=DFILE   Back-end DBMS absolute filepath to write to
 
