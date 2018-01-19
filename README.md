@@ -34,7 +34,7 @@ todo:
 ```
 
 
-note:this was found from an unknown version in Chinese
+note: this was found from an unknown version in Chinese, retranslated to Russian. 
 			I am simply building on that work, credits to the
 			original authors, and the translated version this
 			is built from.
