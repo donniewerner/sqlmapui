@@ -1621,7 +1621,7 @@ def main():
 	root = Tk()
 	s = ttk.Style()
 	s.theme_use('default')
-	root.title('SQLmap GUI v1.82 - for VATB-ng')
+	root.title('SQLmap GUI v1.83')
 	root.rowconfigure(0, weight=1)
 	root.columnconfigure(0, weight=1)
 	appl = app(mw=root)
